@@ -23,7 +23,7 @@ const Mainscreen = () => {
             The team typically replies in a few minutes
           </p>
           {chats.map((item, index) => {
-            return <Card {...item} />
+            return <Card {...item} />;
           })}
         </div>
       </div>
@@ -32,3 +32,4 @@ const Mainscreen = () => {
 };
 
 export default Mainscreen;
+

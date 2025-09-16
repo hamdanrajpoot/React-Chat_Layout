@@ -10,7 +10,7 @@ const Card = ({ name, job, image }) => {
             className="w-[70px] h-[70px] rounded-full object-cover"
             alt=""
           />
-          <div className="">
+          <div className=" ">
             <h2 className="font-semibold">{name}</h2>
             <p className="text-gray-500">{job}</p>
           </div>
