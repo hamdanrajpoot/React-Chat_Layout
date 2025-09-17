@@ -70,6 +70,7 @@ const Inputs = () => {
             <div
               key={item.id}
               className="p-5 flex items-center justify-between shadow-2xl rounded-md"
+              
             >
               {item.name}
               <FaTrash
